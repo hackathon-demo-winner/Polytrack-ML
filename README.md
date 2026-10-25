@@ -163,8 +163,6 @@ use `.venv/Scripts/python` and `--device cuda` to train on the GPU.
 - `runs/`, `rl/checkpoints/`: results and model files. Both are git-ignored.
 - `models/`: the one model published with the code, the best generalist's
   actor (`ppo_blkgen.best2.actor.bin`, 647 KB), for `npm run race`.
-- `graphify-out/`: a knowledge graph of the code. Ask it with
-  `graphify query "<question>"`; refresh it with `graphify update .`.
 
 ## Acceptance tests
 
